@@ -1,15 +1,41 @@
 <!DOCTYPE html>
 <html>
 
+<!-------------------- head -------------------->
 <head>
     <meta charset="UTF-8">
+
     <!-- ブラウザで表示した時のページタイトル -->
     <title>HTML学習</title>
+
+    <!--
+        styleタグ内にCSSを書く
+        基本的に
+        webページの内容(文章)→HTML
+        webページのデザイン→CSS
+        という役割
+    -->
+    <style>
+        body
+        {
+            background:#dcdcdc;
+        } 
+        div
+        {
+            background:#f8f8ff;
+            width: 200px;
+            padding: 10px;
+        }
+
+    </style>
+
 </head>
 
-
+<!-------------------- body -------------------->
 <body>
-    <h1>HTML学習</h1>
+    <div>
+        <h1>HTML学習</h1>
+    </div>
     
     <h3>imgタグで画像表示</h3>
     <img alt="碓氷峠にツーリング行った時のやつ" 
@@ -36,11 +62,9 @@
            title="どっかの馬" 
            width="500" height="900" src="./uma.MOV" controls></video>
 
-
-
-
 </body>
 
+<!-------------------- footer -------------------->
 <footer>
     <p><small>&copy; copyright 2020 MIZ </small></p>
 </footer>
