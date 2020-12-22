@@ -1,0 +1,41 @@
+@charset "utf-8";
+/*
+*
+* test2.htmlにインクルードするCSSファイル
+*
+*/
+
+/* 
+セレクタのテスト
+競合するスタイルを指定した場合、
+適用される優先度は タイプ＜class＜id
+*/
+.p3{
+    color: yellow;
+}
+#p4{
+    color: violet;
+}
+p{
+    color: red;
+}
+.p1{
+    color: blue;
+}
+#p2{
+    color: green;
+}
+
+
+body{ background:#dcdcdc; }
+        
+.title{
+    background:#f8f8ff;
+    width: 400px;
+    padding: 10px;
+    text-align:center;
+    margin:40px auto;
+}
+
+.photo1{text-align:center;}
+.movie1{text-align:center;}

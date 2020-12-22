@@ -6,38 +6,30 @@
     <meta charset="UTF-8">
 
     <!-- ブラウザで表示した時のページタイトル -->
-    <title>HTML学習</title>
+    <title>HTML学習(CSS分離)</title>
 
     <!--
-        styleタグ内にCSSを書く
-        基本的に
-        webページの内容(文章)→HTML
-        webページのデザイン→CSS
-        という役割
+        HTMLファイルとCSSファイルを分けて実装してみる
+        CSSファイル→forTest2.css
     -->
-    <style>
-        body{ background:#dcdcdc; }
-        
-        .title{
-            background:#f8f8ff;
-            width: 400px;
-            padding: 10px;
-            text-align:center;
-            margin:40px auto;
-        }
-
-        .photo1{text-align:center;}
-        .movie1{text-align:center;}
-    </style>
+    <link rel="stylesheet" href="./forTest2.css"/>
 
 </head>
 
 <!-------------------- body -------------------->
 <body>
+    <!-- CSSセレクタのテスト -->
+    <p class="p3">CSSセレクタのテスト</p>
+    <p id="p4">CSSセレクタのテスト</p>
+    <p>CSSセレクタのテスト</p>
+    <p class="p1">CSSセレクタのテスト</p>
+    <p id="p2">CSSセレクタのテスト</p>
+
+    
     <div class=title>
         <h1>HTML学習</h1>
     </div>
-        
+    
     <div class="photo1">
         <h3>imgタグで画像表示</h3>
         <img alt="碓氷峠にツーリング行った時のやつ" 
