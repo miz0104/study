@@ -1,4 +1,4 @@
-# study_HTML
+# study
 
 #### test.html
 静止画、動画、リストを表示する。CSSは内包。
